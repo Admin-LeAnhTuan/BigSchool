@@ -19,14 +19,16 @@ namespace BigSchool.Controllers
 
 
         // GET: Courses
+        [Authorize]
+        
         public ActionResult Create()
         {
             var viewModel = new CourseViewModel
             {
-                Categories = _dbContext.categories.ToList()
+                Categories = _dbContext.Categories.ToList()
             };
 
-            return View();
+            return View( viewModel );
         }
     }
 }
