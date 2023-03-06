@@ -23,8 +23,22 @@ textarea {
     max-width: 280px;
 }
 
-.navbar-inverse .navbar-toggle:hover,
+/*.navbar-inverse .navbar-toggle:hover,
 .navbar-inverse .navbar-toggle:focus {
-    background-color: #777;
+    background-color:    #777;
     border-color: #fff
+}*/
+/* Override the default bootstrap behavior where horizontal description lists */
+.navbar-inverse {
+    background-color: #d41d50;
+    border-color: #fbf6f6;
 }
+
+    .navbar-inverse .narbar-nav > li > a {
+        color: white;
+    }
+
+    .navbar-inverse .navbar-brand {
+        color: white;
+    }
+
