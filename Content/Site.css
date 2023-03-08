@@ -29,6 +29,33 @@ textarea {
     border-color: #fff
 }*/
 /* Override the default bootstrap behavior where horizontal description lists */
+
+/*Courses Layout*/
+.course {
+    list-style: none;
+}
+
+    .course > li {
+        position: relative;
+        margin-bottom: 30px;
+    }
+
+        .course > li .date {
+            text-align: center;
+            background-color: #d41d50;
+            color: white;
+            width: 60px;
+            border-radius: 8px;
+        }
+
+        .course > li .details {
+            position: absolute;
+            top: 0px;
+            left: 70px;
+        }
+
+
+
 .navbar-inverse {
     background-color: #d41d50;
     border-color: #fbf6f6;
@@ -41,4 +68,6 @@ textarea {
     .navbar-inverse .navbar-brand {
         color: white;
     }
+
+
 
