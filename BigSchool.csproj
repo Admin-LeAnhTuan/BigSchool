@@ -179,6 +179,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AttendancesController.cs" />
     <Compile Include="Controllers\CoursesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -201,9 +202,9 @@
     <Compile Include="Migrations\202303081504409_AddNameColumnToApplicationUser.designer.cs">
       <DependentUpon>202303081504409_AddNameColumnToApplicationUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202303081621539_AddAttendance.cs" />
-    <Compile Include="Migrations\202303081621539_AddAttendance.designer.cs">
-      <DependentUpon>202303081621539_AddAttendance.cs</DependentUpon>
+    <Compile Include="Migrations\202303090142388_AddAttendance.cs" />
+    <Compile Include="Migrations\202303090142388_AddAttendance.designer.cs">
+      <DependentUpon>202303090142388_AddAttendance.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -307,8 +308,8 @@
     <EmbeddedResource Include="Migrations\202303081504409_AddNameColumnToApplicationUser.resx">
       <DependentUpon>202303081504409_AddNameColumnToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202303081621539_AddAttendance.resx">
-      <DependentUpon>202303081621539_AddAttendance.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202303090142388_AddAttendance.resx">
+      <DependentUpon>202303090142388_AddAttendance.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
